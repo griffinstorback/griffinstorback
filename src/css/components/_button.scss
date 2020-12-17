@@ -24,7 +24,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: _font(family-heading);
-		font-size: 0.6em;
+		font-size: 1em;
 		font-weight: _font(weight-heading-bold);
 		height: _size(element-height) * 1.75;
 		letter-spacing: _font(kerning-heading);
@@ -32,7 +32,7 @@
 		padding: 0 2.5em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		//text-transform: uppercase;
 		white-space: nowrap;
 
 		&:hover {
@@ -66,12 +66,12 @@
 		}
 
 		&.big {
-			font-size: 0.7em;
+			font-size: 1em;
 			padding: 0 3em;
 		}
 
 		&.small {
-			font-size: 0.5em;
+			font-size: 1em;
 		}
 
 		&.disabled,
