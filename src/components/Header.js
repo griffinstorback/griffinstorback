@@ -7,11 +7,9 @@ function Header() {
     return (
         <header id="header">
             <h1 className="index-link">
-                <a href="/">
-                    {routes.filter((l) => l.index).map((l) => (
-                        <Link key={l.label} to={l.path}>{l.label}</Link>
-                    ))}
-                </a>
+                {routes.filter((l) => l.index).map((l) => (
+                    <Link key={l.label} to={l.path}>{l.label}</Link>
+                ))}
             </h1>
             <nav className="links">
                 <ul>

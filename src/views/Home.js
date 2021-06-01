@@ -1,5 +1,11 @@
 import Main from '../layout/Main';
 
+/*
+
+    Todo: Delete Home() completely? Is there any point in keeping it?
+
+*/
+
 function Home() {
     return (
         <Main>

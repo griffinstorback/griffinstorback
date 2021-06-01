@@ -17,6 +17,36 @@ function Sidebar() {
                 </header>
             </section>
 
+            <section id="footer">
+                <ul className="icons">
+                    {data.map((s) => (
+                        <li key={s.label}>
+                            <a href={s.link}>
+                                <FontAwesomeIcon icon={s.icon} />
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+                <p className="copyright">&copy; Griffin Storback <Link to="/">griffinstorback.com</Link>.</p>
+            </section>
+        </section>
+    )
+    /*
+
+                        CONTAINS BLURB, WHICH HAS BEEN *redacted* FOR NOW
+                        
+    return (
+        <section id="sidebar">
+            <section id="intro">
+                <Link to="/" className="logo">
+                    <img src={"/images/me_icon.jpeg"} alt="" />
+                </Link>
+                <header>
+                    <h2>Griffin Storback</h2>
+                    <p><a href="mailto:griffinstorback@gmail.com">griffinstorback@gmail.com</a></p>
+                </header>
+            </section>
+
             <section className="blurb">
                 <h2>About</h2>
                 <p>Hi, I&apos;m Griffin.
@@ -44,7 +74,7 @@ function Sidebar() {
                 <p className="copyright">&copy; Griffin Storback <Link to="/">griffinstorback.com</Link>.</p>
             </section>
         </section>
-    )
+    )*/
 }
 
 export default Sidebar;

@@ -12,11 +12,7 @@ const data = [
     {
         path: "/apps",
         label: "Apps"
-    },
-    {
-        path: "/resume",
-        label: "Resume"
-    },
+    }
 ];
 
 export default data;
