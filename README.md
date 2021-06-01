@@ -1,8 +1,11 @@
 # Welcome to the source for my personal website
 
 Currently hosted at https://griffinstorback.com/.
-The gh-pages branch of this project contain the built files which are served
+
+The master branch holds the source code, while the gh-pages branch of this project contain the built files which are served
 at griffinstorback.com.
+
+To publish, just run "npm run deploy" in the cli.
 
 ## Acknowledgements
 
